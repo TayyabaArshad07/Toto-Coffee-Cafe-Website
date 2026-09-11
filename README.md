@@ -1,6 +1,6 @@
 # Toto Cafe
 
-Toto Cafe is a modern coffee shop landing page and menu experience designed to capture the warmth, comfort, and elegance of a boutique café. The project combines a premium visual style with responsive layouts, curated product sections, and an interactive shopping experience.
+Toto Cafe is a modern coffee shop website and menu experience designed to capture the warmth, comfort, and elegance of a boutique café. The project combines a premium visual style with responsive layouts, curated product sections, and an interactive shopping experience.
 
 ## Overview
 
