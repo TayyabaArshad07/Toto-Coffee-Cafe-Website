@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#33251d" />
+    <meta name="description" content="Toto Cafe - Good Coffee Slow Moments" />
+    <title>Toto Cafe | Good Coffee Slow Moments</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/readability.css" />
+  </head>
+  <body>
+    <header class="nav-wrap">
+      <nav class="nav container">
+        <a class="brand" href="#home"
+          ><span class="brand-mark">T</span><span>Toto <i>Cafe</i></span></a
+        >
+        <div class="nav-links">
+          <a href="#home">Home</a><a href="#menu">Menu</a
+          ><a href="#about">About</a><a href="#story">Our Story</a
+          ><a href="#gallery">Gallery</a><a href="#contact">Contact</a>
+        </div>
+        <button class="nav-order" data-open-cart>
+          Order now <span>↗</span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero container">
+        <div class="hero-copy reveal">
+          <h1>Good coffee<br /><em>Slow moments</em></h1>
+          <p class="hero-sub">
+            Handcrafted coffee, freshly baked treats, and a little space to slow
+            down
+          </p>
+          <div class="hero-actions">
+            <button class="button button-dark" data-scroll="menu">
+              Explore our menu <span>↘</span></button
+            ><button class="button button-light" data-add="1">
+              Order a coffee <span>↗</span>
+            </button>
+          </div>
+          <div class="hero-note">
+            <span class="avatar-stack"><i></i><i></i><i></i></span
+            ><span>Loved by <strong>2,400+</strong> regulars</span>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <img
+            src="/images/Coffee Bar with a Vintage Vibe.jfif"
+            alt="Toto Cafe interior with freshly brewed coffee"
+          />
+          <div class="hero-number">01 <span>/ 04</span></div>
+        </div>
+      </section>
+
+      <section id="menu" class="menu-section section-pad">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">A little something for everyone</p>
+              <h2>Made fresh<br /><em>Served warm</em></h2>
+            </div>
+            <p class="section-intro">
+              From your first morning sip to your last sweet bite, every item is
+              made with care and a little joy
+            </p>
+          </div>
+          <div class="filter-row" id="filters"></div>
+          <div class="product-grid" id="product-grid"></div>
+          <div class="menu-foot">
+            <span>All our coffee is available hot or iced</span
+            ><button class="text-link" data-scroll="menu">
+              View full menu <span>→</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about-section section-pad">
+        <div class="container about-grid">
+          <div class="about-images">
+            <img
+              class="about-main"
+              src="/images/Coffee Bar with a Vintage Vibe.jfif"
+              alt="Warm Toto Cafe interior"
+            /><img
+              class="about-detail"
+              src="/images/cafe.jfif"
+              alt="Toto Cafe interior"
+            /><span class="vertical-label">TOTO CAFE · LAHORE</span>
+          </div>
+          <div class="about-copy">
+            <p class="eyebrow">The Toto way</p>
+            <h2>More than<br /><em>just coffee</em></h2>
+            <p>
+              We built Toto Cafe as a welcoming pause in the middle of the day A
+              place for carefully crafted coffee good work long conversations a
+              few pages of a book or absolutely nothing at all
+            </p>
+            <div class="stats">
+              <div>
+                <strong>2<span>+</span></strong
+                ><small>Years serving<br />the community</small>
+              </div>
+              <div>
+                <strong>25<span>+</span></strong
+                ><small>Coffee & food<br />options</small>
+              </div>
+              <div>
+                <strong>100<span>%</span></strong
+                ><small>Freshly roasted<br />beans</small>
+              </div>
+            </div>
+            <button class="text-link" data-scroll="story">
+              Our story <span>→</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="story" class="signature-section">
+        <div class="signature-image">
+          <img
+            src="/images/caramel latte.jfif"
+            alt="Brown sugar cinnamon latte"
+          /><span class="signature-badge">Toto<br />signature</span>
+        </div>
+        <div class="signature-copy">
+          <p class="eyebrow">Made for slow afternoons</p>
+          <h2>Brown Sugar<br /><em>Cinnamon Latte</em></h2>
+          <p>
+            Smooth espresso steamed milk brown sugar and a hint of cinnamon -
+            comfort in every sip
+          </p>
+          <button class="button button-dark" data-add="7">
+            Try it today <span>↗</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="why-section section-pad">
+        <div class="container">
+          <div class="section-heading centered">
+            <div>
+              <p class="eyebrow">The good stuff</p>
+              <h2>Why Toto <em>feels different</em></h2>
+            </div>
+          </div>
+          <div class="feature-grid">
+            <div class="feature-card">
+              <span class="feature-icon">☕</span>
+              <h3>Specialty coffee</h3>
+              <p>Carefully selected beans and expertly crafted drinks</p>
+              <span class="feature-arrow">↗</span>
+            </div>
+            <div class="feature-card">
+              <span class="feature-icon">🌱</span>
+              <h3>Fresh ingredients</h3>
+              <p>Quality ingredients prepared fresh every day</p>
+              <span class="feature-arrow">↗</span>
+            </div>
+            <div class="feature-card">
+              <span class="feature-icon">🥐</span>
+              <h3>Baked daily</h3>
+              <p>Fresh pastries and desserts made for your coffee</p>
+              <span class="feature-arrow">↗</span>
+            </div>
+            <div class="feature-card">
+              <span class="feature-icon">🤎</span>
+              <h3>A place to belong</h3>
+              <p>
+                A welcoming space for conversations creativity and quiet moments
+              </p>
+              <span class="feature-arrow">↗</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery" class="gallery-section section-pad">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">A glimpse inside</p>
+              <h2>Take a little<br /><em>look around</em></h2>
+            </div>
+            <p class="section-intro">
+              Coffee tastes better when the room feels right Come find your
+              favourite corner
+            </p>
+          </div>
+          <div class="gallery-grid">
+            <div class="gallery-item gallery-feature">
+              <img src="/images/cafe.jfif" alt="Toto Cafe interior" /><span
+                >Cafe atmosphere</span
+              >
+            </div>
+            <div class="gallery-item">
+              <img
+                src="/images/Coffee Bar with a Vintage Vibe.jfif"
+                alt="Toto Cafe coffee bar"
+              /><span>Our coffee bar</span>
+            </div>
+            <div class="gallery-item">
+              <img src="/images/Butter Croissant.jfif" alt="Butter croissant" /><span
+                >Baked fresh</span
+              >
+            </div>
+            <div class="gallery-item gallery-small">
+              <img src="/images/cuppacino.jfif" alt="Cappuccino" /><span
+                >Classic cappuccino</span
+              >
+            </div>
+            <div class="gallery-item gallery-small">
+              <img src="/images/caramel latte.jfif" alt="Caramel latte" /><span
+                >Caramel latte</span
+              >
+            </div>
+            <div class="gallery-item gallery-small">
+              <img src="/images/Iced Mocha.jfif" alt="Iced mocha" /><span
+                >Iced mocha</span
+              >
+            </div>
+            <div class="gallery-item gallery-small">
+              <img src="/images/spanish latte.jfif" alt="Spanish latte" /><span
+                >Spanish latte</span
+              >
+            </div>
+            <div class="gallery-item gallery-wide">
+              <img src="/images/FOREVER LOVE🤎🍫.jfif" alt="Chocolate brownie" /><span
+                >Chocolate brownie</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="reviews-section section-pad">
+        <div class="container">
+          <div class="section-heading centered">
+            <div>
+              <p class="eyebrow">Kind words</p>
+              <h2>Loved by coffee <em>people</em></h2>
+            </div>
+          </div>
+          <div class="reviews-grid">
+            <article class="review-card">
+              <div class="stars">★★★★★</div>
+              <blockquote>
+                “The kind of place where one coffee becomes three hours The
+                cappuccino is genuinely perfect”
+              </blockquote>
+              <div class="reviewer">
+                <span>A</span>
+                <div>
+                  <strong>Ayesha Khan</strong
+                  ><small>ayesha.khan@example.com</small>
+                </div>
+              </div>
+            </article>
+            <article class="review-card">
+              <div class="stars">★★★★★</div>
+              <blockquote>
+                “Toto feels like a deep breath Beautiful space kind people and
+                the best brown sugar latte in the city”
+              </blockquote>
+              <div class="reviewer">
+                <span>H</span>
+                <div>
+                  <strong>Hamza Ahmed</strong
+                  ><small>hamza.ahmed@example.com</small>
+                </div>
+              </div>
+            </article>
+            <article class="review-card">
+              <div class="stars">★★★★★</div>
+              <blockquote>
+                “I come for the coffee and stay for the quiet Their croissants
+                should be illegal”
+              </blockquote>
+              <div class="reviewer">
+                <span>M</span>
+                <div>
+                  <strong>Maryam Siddiqui</strong
+                  ><small>maryam.siddiqui@example.com</small>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section section-pad">
+        <div class="container contact-grid">
+          <div class="contact-copy">
+            <p class="eyebrow">Find your way to us</p>
+            <h2>Come say <em>hello</em></h2>
+            <div class="contact-details">
+              <div>
+                <span class="contact-icon">⌖</span>
+                <div>
+                  <strong>Find us</strong>
+                  <p>Lahore Pakistan</p>
+                </div>
+              </div>
+              <div>
+                <span class="contact-icon">◷</span>
+                <div>
+                  <strong>Opening hours</strong>
+                  <p>
+                    Mon-Fri 7:00 AM - 9:00 PM<br />Sat-Sun 8:00 AM - 10:00 PM
+                  </p>
+                </div>
+              </div>
+              <div>
+                <span class="contact-icon">✆</span>
+                <div>
+                  <strong>Say hello</strong>
+                  <p>+923312269506<br />hello@totocafe.com</p>
+                </div>
+              </div>
+            </div>
+            <button class="button button-light">
+              Get directions <span>↗</span>
+            </button>
+          </div>
+          <div class="visit-card">
+            <div class="visit-art">
+              <span class="visit-ring">T</span><span class="visit-line"></span>
+            </div>
+            <div class="visit-copy">
+              <p class="eyebrow">A warm welcome awaits</p>
+              <h3>See you in Lahore</h3>
+              <p>
+                Drop in for a slow morning a quick espresso or a table that
+                feels like yours
+              </p>
+              <span class="visit-status"><i></i> Open today until 9:00 PM</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand footer-brand" href="#home"
+            ><span class="brand-mark">T</span><span>Toto <i>Cafe</i></span></a
+          >
+          <p>Good coffee<br />Slow moments</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <a href="#menu">Menu</a><a href="#about">About us</a
+          ><a href="#story">Our story</a><a href="#gallery">Gallery</a>
+        </div>
+        <div>
+          <h4>Visit</h4>
+          <a href="#contact">Lahore, Pakistan</a
+          ><a href="tel:+923312269506">+923312269506</a
+          ><a href="mailto:hello@totocafe.com">hello@totocafe.com</a>
+        </div>
+        <div>
+          <h4>Follow along</h4>
+          <div class="socials">
+            <a href="#contact">ig</a><a href="#contact">f</a
+            ><a href="#contact">tk</a>
+          </div>
+          <span class="footer-small">Lahore · Pakistan</span>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© 2024 Toto Cafe All rights reserved</span
+        ><span>Made with care and good beans</span>
+      </div>
+    </footer>
+
+    <button class="cart-fab" data-open-cart>
+      <span>Order</span><b id="cart-count">0</b>
+    </button>
+    <div class="drawer-backdrop" id="drawer-backdrop" hidden>
+      <aside class="cart-drawer">
+        <div class="drawer-head">
+          <div>
+            <p class="eyebrow">Your order</p>
+            <h2 id="drawer-title">A little treat</h2>
+          </div>
+          <button class="close-button" data-close-cart>×</button>
+        </div>
+        <div id="cart-content"></div>
+      </aside>
+    </div>
+    <script type="module" src="/script.js"></script>
+  </body>
+</html>
