@@ -90,20 +90,5 @@ npm run preview
 - `npm run build` – generates a production-ready build
 - `npm run preview` – previews the final build locally
 
-## Customization
 
-The project is designed to be easy to customize. You can update:
 
-- brand text and headings in the HTML
-- menu items and pricing in `script.js`
-- color palette and page styling in `styles.css`
-- page content and layout sections in `index.html`
-- café photography in the `images/` directory
-
-## Notes
-
-This project is a front-end demonstration and mock ordering experience. It is ideal for portfolio work, café branding presentations, or further expansion into a full online ordering system.
-
-## License
-
-This project is for personal or portfolio use. You may modify and extend it freely for your own needs.
